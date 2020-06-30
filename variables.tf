@@ -2,6 +2,11 @@ variable "resource_group_name" {
   description = "The resource group name to be imported"
 }
 
+variable "kubernetes_version" {
+  description = "Kubernetes version to use"
+  default = "1.18.2"
+}
+
 variable "prefix" {
   description = "The prefix for the resources created in the specified Azure Resource Group"
 }
