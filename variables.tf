@@ -7,6 +7,10 @@ variable "kubernetes_version" {
   default = "1.18.2"
 }
 
+variable "vnet_subnet_id" {
+  description = "azure vnet"
+}
+
 variable "prefix" {
   description = "The prefix for the resources created in the specified Azure Resource Group"
 }
